@@ -1,0 +1,59 @@
+img {
+    width: 12vw;
+    position: absolute;
+    z-index: 2;
+    transform: translateY(-4vh);
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    /* transform: translateY(-10vh); */
+    border-bottom: black solid 2px;
+    z-index: 1;
+}
+
+h1 span {
+    
+        border: black solid 1px;
+         transform: rotate(61deg);/*translateY(20px); */
+         margin: auto 6px;
+        height: 30px;
+        display: inline-block;
+        width: 30px;
+}
+
+button img {
+    width: 20vw;
+}
+
+button {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border: transparent;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.player1 {
+    display: inline-block;
+}
+
+.player2 {
+    display: inline-block;
+    transform: translateX(46vw);
+}
+
+input {
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
